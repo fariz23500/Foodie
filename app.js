@@ -21,12 +21,7 @@ const dataSchema=new mongoose.Schema({
 });
 const Person=mongoose.model("person",personSchema);
 const Data=mongoose.model("data",dataSchema);
-const path = require('path');
-app.use(express.static(path.join(__dirname, './my-app/build')));
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './my-app/build/public/index.html'));
-  });
 
 let d=[];
 Data.find((err,datas)=>{
@@ -82,7 +77,12 @@ const dishName=req.body.dishName;
 });
 
 
+const path = require('path');
+app.use(express.static(path.join(__dirname, './my-app/build')));
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './my-app/build/index.html'));
+  });
 
 app.listen(Port,()=>{
     console.log("Server running on 3001")
