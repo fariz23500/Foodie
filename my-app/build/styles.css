@@ -1,0 +1,119 @@
+
+  .NavbarItems{
+    padding-left: 1000px;
+  
+  }
+  .NavBar{
+    background-color:#FFD523;
+    font-size:25px;
+    padding: 20px 0 20px 0;
+    width:100%;
+  
+  }
+  .search-bar{
+    background-color: #2C2E43;
+    height: 650px;
+  }
+  .item-text{
+    color:white;
+  }
+  /* inputs */
+  .location-input{
+    position:relative;
+    left :20px;
+    top:275px;
+  }
+  .inp{
+    width:600px;
+  }
+  
+  .food-img{
+    border-radius: 100%;
+    height: 500px;
+    width:500px;
+    position: relative;
+    left: 100px;
+    top:100px;
+  
+    border-style: solid ;
+  }
+  .food-carousel{
+    height:600px;
+  }
+  /* card */
+  .card-img{
+    border-radius: 100%;
+    height:350px;
+    width:350px;
+    background-color:white;
+  
+  }
+  .card-bg{
+    border-style: none;
+    
+  }
+  .cards{
+    background-color:white;
+    height:60vh;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 940px) {
+    .example {
+      display: none;
+    }
+    .cards{
+      height:200vh;
+    }
+    .NavbarItems{
+      padding-left: 10px;
+    }
+    .dish-input{
+      left:0;
+    }
+    .location-input{
+      left:0;
+    }
+  }
+  
+  #cta {
+    background-color: #595260;
+    padding: 100px 30px 0 50px;
+    text-align: center;
+    color: white;
+    height:50vh;
+  }
+  .download-btn{
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  /* footer */
+  #footer {
+    padding: 40px 7px;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #EFEFEF;
+  }
+  /* best-dishes */
+  
+  .dish-input{
+    position:relative;
+    left :20px;
+    top:60px;
+  }
+  .search-input{
+    height:100px;
+  }
+  .filters{
+    position: relative;
+    left:20px;
+  }
+  .filter-btn{
+    /* position:relative;
+    left:20px; */
+    margin:20px 20px 20px 20px;
+  
