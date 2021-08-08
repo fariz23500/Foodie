@@ -9,7 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "heroku-postbuild": "cd my-app && npm install && cd my-app && npm run build"
+    "build":"cd my-app && npm run build",
+    "install-client":"cd my-app && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build"
   },
   "author": "",
   "license": "ISC",
