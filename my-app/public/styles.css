@@ -64,10 +64,10 @@
   
   @media screen and (max-width: 1150px) {
     .example {
-      display: none;
+      
     }
     .cards{
-      height:200vh;
+      height:100vh;
     }
     .NavbarItems{
       padding-left: 10px;
@@ -85,7 +85,7 @@
     padding: 100px 30px 0 50px;
     text-align: center;
     color: white;
-    height:50vh;
+    height:35vh;
   }
   .download-btn{
     margin-right: 30px;
